@@ -46,7 +46,7 @@ const MessageBox: React.FC<MessageBoxProps> = ({ data, isLast }) => {
                 targetLanguage
             );
             setTranslatedBody(translatedText);
-            setCurrentLanguage(targetLanguage); // Cập nhật ngôn ngữ hiện tại
+            setCurrentLanguage(targetLanguage);
         }
     };
 
